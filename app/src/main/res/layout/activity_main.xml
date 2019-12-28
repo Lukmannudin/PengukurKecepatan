@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relative"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#009688"
+    tools:context=".MainActivity">
+
+     <TextView
+        android:id="@+id/name"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="2dp"
+        android:layout_height="wrap_content"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/xval"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="2dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/yval"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="2dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/xval"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/zval"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="2dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/yval"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/zval"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="124dp"
+        android:background="#00C93131"
+        android:text="AKSELEROMETER"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:text= 'tes'
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColorLink="#F0B10A" />
+
+    <TextView
+        android:id="@+id/tv_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView3"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="detik"
+        android:textSize="24sp" />
+
+</RelativeLayout>
