@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\cep renal\\AplikasiPercobaan\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
+            "outputFile": "/home/codelabs/ngulik/android/taufiq/APLIKASI ANDROID/AplikasiPercobaan/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\cep renal\\.gradle\\caches\\transforms-2\\files-2.1\\6032ba758550511334f1cce7dcd66aff\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "source": "/home/codelabs/.gradle/caches/transforms-2/files-2.1/697f71c0c12135256cbfe98df498a7e4/appcompat-1.0.2/res/values-hdpi-v4/values-hdpi-v4.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

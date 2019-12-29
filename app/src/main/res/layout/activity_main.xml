@@ -6,67 +6,99 @@
     android:background="#009688"
     tools:context=".MainActivity">
 
-     <TextView
-        android:id="@+id/name"
-        android:layout_width="fill_parent"
-        android:layout_marginTop="2dp"
-        android:layout_height="wrap_content"
-        android:textSize="30sp" />
-
-    <TextView
-        android:id="@+id/xval"
-        android:layout_width="fill_parent"
-        android:layout_marginTop="2dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/name"
-        android:textSize="20sp" />
-
-    <TextView
-        android:id="@+id/yval"
-        android:layout_width="fill_parent"
-        android:layout_marginTop="2dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/xval"
-        android:textSize="20sp" />
-
-    <TextView
-        android:id="@+id/zval"
-        android:layout_width="fill_parent"
-        android:layout_marginTop="2dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/yval"
-        android:textSize="20sp" />
 
     <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/zval"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="124dp"
         android:background="#00C93131"
         android:text="AKSELEROMETER"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
+
     <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
+        android:id="@+id/xval"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView1"
-        android:layout_marginTop="5dp"
-        android:layout_marginLeft="10dp"
-        android:text= 'tes'
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:textColorLink="#F0B10A" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/yval"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/xval"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/zval"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/yval"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="2dp"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/labelKecepatan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/zval"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="Kecepatan"
+        android:textAllCaps="true"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+    <TextView
+        android:id="@+id/tv_speed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/labelKecepatan"
+        android:gravity="center"
+        android:text="00 km/jam"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/labelWaktu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_speed"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Waktu"
+        android:textAllCaps="true"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <TextView
         android:id="@+id/tv_second"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/textView3"
+        android:layout_below="@id/labelWaktu"
         android:layout_centerHorizontal="true"
         android:gravity="center"
         android:text="detik"
         android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/saveToCSV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="100dp"
+        android:text="Save to CSV" />
 
 </RelativeLayout>
